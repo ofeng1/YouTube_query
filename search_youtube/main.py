@@ -33,6 +33,6 @@ def convert_to_mp3(input_file, output_file='audio.mp3'):
     except subprocess.CalledProcessError as e:
         print('Conversion failed:', e)
 
-user_link = input('Give me your link 😩:')
+user_link = input('Give me your link:')
 downloaded_file_path = download_video(user_link) 
 convert_to_mp3(downloaded_file_path)
