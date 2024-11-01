@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "search-youtube"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.11"
+isort = "^5.13.2"
+pytest = "^7.4.4"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytube = "^15.0.0"
+python-dotenv = "^1.0.1"
+deepgram-sdk = "^3.2.3"
+openai = "^1.14.3"
+supabase = "^2.4.1"
+pypika = "^0.48.9"
+psycopg2-binary = "^2.9.9"
+
+[tool.poetry.scripts]
+reformat = "ruff format && isort . && ruff . --fix"
+lint = "isort . --check-only && ruff ."
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"

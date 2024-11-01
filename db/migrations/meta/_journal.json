@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1711870780923,
+      "tag": "0000_far_groot",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1711871933458,
+      "tag": "0001_cool_morlocks",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1711872721120,
+      "tag": "0002_chunky_mother_askani",
+      "breakpoints": true
+    }
+  ]
+}

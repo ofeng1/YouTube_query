@@ -1,0 +1,39 @@
+{
+  "name": "app-name",
+  "version": "1.0.0",
+  "description": "Typescript Template to use for future projects",
+  "scripts": {
+    "reformat": "prettier --write . && eslint --fix",
+    "lint": "prettier --check . && eslint",
+    "db:generate": "drizzle-kit generate",
+    "db:pull": "drizzle-kit pull"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonnetai/typescript-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonnetai/typescript-template/issues"
+  },
+  "homepage": "https://github.com/sonnetai/typescript-template#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "drizzle-kit": "^0.20.14",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-unused-imports": "^3.1.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.6",
+    "postgres": "^3.4.4"
+  }
+}
